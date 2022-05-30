@@ -9,7 +9,7 @@ import { Head } from '@inertiajs/inertia-vue3';
     <BreezeAuthenticatedLayout>
         <template #header>
             <h2 class="font-semibold text-xl text-gray-800 leading-tight">
-                Dashboard
+                Calendar / Create
             </h2>
         </template>
 

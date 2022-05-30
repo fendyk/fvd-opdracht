@@ -15,10 +15,10 @@ import { Head, Link } from '@inertiajs/inertia-vue3';
 
         <div class="mx-auto max-w-7xl p-8">
             <div class="bg-white p-8 shadow-2xl shadow-gray-200 rounded-3xl">
-                <div class="mb-4 flex flex-row justify-end bg-white">
-
-                    <Link :href="route('calendar/Create')" class="bg-blue-600 text-white rounded-3xl px-2 py-1">
-                        Voeg nieuw item toe
+                <div class="mb-4 flex flex-row justify-between bg-white">
+                    <h2 class="text-3xl font-bold">Agenda</h2>
+                    <Link :href="route('calendar/Create')" class="bg-blue-600 font-bold text-white rounded-3xl px-2 py-1">
+                        Nieuw item
                     </Link>
                 </div>
                 <v-calendar is-expanded :attributes='attrs'></v-calendar>
@@ -38,6 +38,8 @@ import { Head, Link } from '@inertiajs/inertia-vue3';
                         <div>
                             <h3 class="text-gray-800 text-xl font-bold">Tweede kamer debat in de plenaire zaal</h3>
                             <span class="bg-blue-600 text-white px-2 py-1 rounded-3xl text-xs font-bold inline-block">Plenair debat</span>
+                        </div>
+                        <div>
                             <p class="text-gray-600 mt-2">14:00 tot 15:30</p>
                         </div>
                         <div class="flex flex-col">
@@ -49,6 +51,8 @@ import { Head, Link } from '@inertiajs/inertia-vue3';
                         <div>
                             <h3 class="text-gray-800 text-xl font-bold">Tweede kamer debat in de plenaire zaal</h3>
                             <span class="bg-blue-600 text-white px-2 py-1 rounded-3xl text-xs font-bold inline-block">Plenair debat</span>
+                        </div>
+                        <div>
                             <p class="text-gray-600 mt-2">14:00 tot 15:30</p>
                         </div>
                         <div class="flex flex-col">
